@@ -1,0 +1,10 @@
+project_url,sha,module,test,type,status,PR_link,notes
+https://github.com/apache/avro,bfbd2d115aec576545b0673e876a652806b41986,lang/java/avro,org.apache.avro.reflect.TestReflect.testAvroDoc,ID,Accepted,https://github.com/apache/avro/pull/667,
+https://github.com/apache/flink,f91bd772de866a48d65dfcb31d4ef0d1ef2c001e,flink-core,org.apache.flink.types.RowTest.testRowNamed,ID,Opened,https://github.com/apache/flink/pull/17934,
+https://github.com/apache/hadoop,14cd969b6ea1898e9db6eeb9ea5292ec4558a706,hadoop-common-project/hadoop-common,org.apache.hadoop.metrics2.impl.TestMetricsSystemImpl.testInitFirstVerifyStopInvokedImmediately,ID,Accepted,https://github.com/apache/hadoop/pull/1868,
+https://github.com/apache/hive,90fa9064f2c6907fbe6237cb46d5937eebd8ea31,standalone-metastore/metastore-server,org.apache.hadoop.hive.common.TestStatsSetupConst.testStatColumnEntriesCompat,ID,InspiredAFix,https://github.com/apache/hive/pull/1024,
+https://github.com/apache/iotdb,25a98ee165131047cda93dc92203db2ab9aecbc8,tsfile,org.apache.iotdb.tsfile.read.ReadInPartitionTest.test3,ID,Deleted,,https://github.com/apache/iotdb/commit/11c6c331e61a127a3c66906d5dfde75069ec04c6
+https://github.com/apache/iotdb,25a98ee165131047cda93dc92203db2ab9aecbc8,zeppelin-interpreter,org.apache.zeppelin.iotdb.IoTDBInterpreterTest.testShowStorageGroup,ID,Deleted,,https://github.com/apache/iotdb/commit/11c6c331e61a127a3c66906d5dfde75069ec04c6
+https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors,org.apache.nifi.hbase.TestScanHBase.testScanToContentWithStringValues,ID,Accepted,https://github.com/apache/nifi/pull/6633,
+https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar-bundles/nifi-asn1-bundle/nifi-asn1-services,org.apache.nifi.jasn1.TestJASN1RecordReaderWithComplexTypes.testRecursive,ID,Accepted,https://github.com/apache/nifi/pull/6633,
+https://github.com/CloudSlang/cloud-slang,76b733019b362f551481f1bdc78ed2eac73b1bd4,cloudslang-compiler,io.cloudslang.lang.compiler.MetadataExtractorTest.testMetadataPrettyPrint,ID,Opened,https://github.com/CloudSlang/cloud-slang/pull/1384,

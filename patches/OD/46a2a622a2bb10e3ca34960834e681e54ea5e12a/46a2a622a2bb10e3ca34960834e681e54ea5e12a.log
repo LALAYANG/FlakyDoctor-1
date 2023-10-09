@@ -1,0 +1,291 @@
++ cd /home/azureuser/flaky
+++ pwd
++ echo '* CURRENT' DIR /home/azureuser/flaky
+* CURRENT DIR /home/azureuser/flaky
++ echo bash -x /home/azureuser/flaky/odstash.sh od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv projects
+bash -x /home/azureuser/flaky/odstash.sh od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv projects
++ bash -x /home/azureuser/flaky/odstash.sh od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv projects
++ input=od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv
++ cloneDir=projects
+++ shasum
++++ date '+%Y-%m-%d %H:%M:%S'
+++ echo -n 2023-09-21 04:13:39
+++ cut -f 1 -d ' '
++ timeStamp=c5d184e73a78f046ae6c2e6699e68d984980cc3e
++ mkdir -p ./output/c5d184e73a78f046ae6c2e6699e68d984980cc3e/install_logs
+++ pwd
++ mainDir=/home/azureuser/flaky/projects
+++ pwd
++ logDir=/home/azureuser/flaky/output/c5d184e73a78f046ae6c2e6699e68d984980cc3e/install_logs
++ exec
+++ exec
++ trap 0 1 2 3
++ exec
++ echo python3 /home/azureuser/flaky/od_flakiness.py od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv /home/azureuser/flaky/projects/ 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 /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/detailRes.csv /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/summaryRes.csv /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/goodPatches /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/unfixed.csv
++ tee /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/main.log
+python3 /home/azureuser/flaky/od_flakiness.py od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv /home/azureuser/flaky/projects/ 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 /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/detailRes.csv /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/summaryRes.csv /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/goodPatches /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/unfixed.csv
++ python3 /home/azureuser/flaky/od_flakiness.py od-94c8448b34628376576e434ec09c493a79a37b96-unfixed.csv /home/azureuser/flaky/projects/ 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 /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/detailRes.csv /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/summaryRes.csv /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/goodPatches /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/unfixed.csv
++ tee /home/azureuser/flaky/ODx2/46a2a622a2bb10e3ca34960834e681e54ea5e12a/main.log
+Len: 3
+io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason
+com.vaadin.flow.component.polymertemplate.NpmTemplateParserTest.should_FindCorrectDataInStats
+com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+*** io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason
+[Before fix] Running victim io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason with type OD-Vic from project undertow sha d0efffad5d2034bb07525cac9b299dac72c3045d module websockets-jsr
+git checkout projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/annotated/AnnotatedEndpointTest.java
+
+git stash
+Saved working directory and index state WIP on (no branch): d0efffad5 UNDERTOW-1416 Error message in the log when using server push over HTTP/2
+
+OD-Vic undertow d0efffad5d2034bb07525cac9b299dac72c3045d io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest#testErrorHandling io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest#testCloseReason websockets-jsr /home/azureuser/flaky/projects/ BeforeFix 1 projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/annotated/AnnotatedEndpointTest.java projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/annotated/AnnotatedEndpointTest.java
+RUNNING Surefire 1 time(s) on polluter io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest#testErrorHandling and victim io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest#testCloseReason with type OD-Vic from project undertow sha d0efffad5d2034bb07525cac9b299dac72c3045d module websockets-jsr               
+STARTING at Thu Sep 21 04:13:39 UTC 2023
+f04774019adb9008396de2fe46ef761ae18d4927
+/home/azureuser/flaky/projects//d0efffad5d2034bb07525cac9b299dac72c3045d/undertow
+java version: <jdk>9</jdk>
+CURRENT DIR /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow
+mvn test -pl websockets-jsr -Dsurefire.runOrder=testorder -Dtest=io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest#testErrorHandling,io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest#testCloseReason -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/undertow_d0efffad5d2034bb07525cac9b299dac72c3045d//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+Warning: KebabPizza disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from undertow-websockets-jsr
+[INFO] 
+[INFO] ----------------< io.undertow:undertow-websockets-jsr >-----------------
+[INFO] Building Undertow WebSockets JSR356 implementations 2.0.14.Final-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (get-scm-revision) @ undertow-websockets-jsr ---
+[INFO] Executing: /bin/sh -c cd '/home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr
+[INFO] Storing buildNumber: d0efffad5d2034bb07525cac9b299dac72c3045d at timestamp: 1695269622567
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: ref HEAD is not a symbolic ref
+
+[INFO] Executing: /bin/sh -c cd '/home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ undertow-websockets-jsr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ undertow-websockets-jsr ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.0.0:checkstyle (check-style) @ undertow-websockets-jsr ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.2.0:manifest (generate-manifest) @ undertow-websockets-jsr ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ undertow-websockets-jsr ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ undertow-websockets-jsr ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 49 source files to /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/target/test-classes
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/ProgramaticAutobahnServer.java:[75,91] unchecked method invocation: method createStreamConnectionServer in class org.xnio.XnioWorker is applied to given types
+  required: java.net.SocketAddress,org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>,org.xnio.OptionMap
+  found: java.net.InetSocketAddress,org.xnio.ChannelListener,org.xnio.OptionMap
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/ProgramaticAutobahnServer.java:[75,121] unchecked conversion
+  required: org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>
+  found:    org.xnio.ChannelListener
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/ProgramaticAutobahnServer.java:[75,91] unchecked conversion
+  required: org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>
+  found:    org.xnio.channels.AcceptingChannel
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/extension/JsrWebsocketExtensionTestCase.java:[113,63] connect(org.xnio.XnioWorker,org.xnio.ssl.XnioSsl,io.undertow.connector.ByteBufferPool,org.xnio.OptionMap,java.net.URI,io.undertow.websockets.core.WebSocketVersion,io.undertow.websockets.client.WebSocketClientNegotiation,java.util.Set<io.undertow.websockets.extensions.ExtensionHandshake>) in io.undertow.websockets.client.WebSocketClient has been deprecated
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/extension/JsrWebsocketExtensionTestCase.java:[174,63] connect(org.xnio.XnioWorker,org.xnio.ssl.XnioSsl,io.undertow.connector.ByteBufferPool,org.xnio.OptionMap,java.net.URI,io.undertow.websockets.core.WebSocketVersion,io.undertow.websockets.client.WebSocketClientNegotiation,java.util.Set<io.undertow.websockets.extensions.ExtensionHandshake>) in io.undertow.websockets.client.WebSocketClient has been deprecated
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[105,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[105,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[136,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[136,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[168,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[168,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[205,53] unchecked call to setResult(T) as a member of the raw type org.xnio.FutureResult
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[213,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[213,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[253,53] unchecked call to setResult(T) as a member of the raw type org.xnio.FutureResult
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[261,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[261,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[303,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[303,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[337,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[337,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[384,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[384,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[430,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[430,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[456,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[456,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[497,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[497,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[542,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[542,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[585,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[585,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[623,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[623,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[641,44] unchecked method invocation: constructor <init> in class io.undertow.websockets.jsr.ServerWebSocketContainer is applied to given types
+  required: io.undertow.servlet.api.ClassIntrospecter,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List<io.undertow.servlet.api.ThreadSetupHandler>,boolean,boolean
+  found: io.undertow.servlet.test.util.TestClassIntrospector,org.xnio.XnioWorker,io.undertow.connector.ByteBufferPool,java.util.List,boolean,boolean
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[641,174] unchecked conversion
+  required: java.util.List<io.undertow.servlet.api.ThreadSetupHandler>
+  found:    java.util.List
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/JsrWebSocketServer07Test.java:[700,24] unchecked cast
+  required: T
+  found:    java.lang.Object
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/annotated/RootContextEndpoint.java:[43,24] unchecked cast
+  required: T
+  found:    io.undertow.websockets.jsr.test.annotated.RootContextEndpoint
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/AnnotatedAutobahnServer.java:[63,33] WORKER_READ_THREADS in org.xnio.Options has been deprecated
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/AnnotatedAutobahnServer.java:[62,33] WORKER_WRITE_THREADS in org.xnio.Options has been deprecated
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/AnnotatedAutobahnServer.java:[73,33] WORKER_ACCEPT_THREADS in org.xnio.Options has been deprecated
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/AnnotatedAutobahnServer.java:[80,92] unchecked method invocation: method createStreamConnectionServer in class org.xnio.XnioWorker is applied to given types
+  required: java.net.SocketAddress,org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>,org.xnio.OptionMap
+  found: java.net.InetSocketAddress,org.xnio.ChannelListener,org.xnio.OptionMap
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/AnnotatedAutobahnServer.java:[80,122] unchecked conversion
+  required: org.xnio.ChannelListener<? super org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>>
+  found:    org.xnio.ChannelListener
+[WARNING] /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/src/test/java/io/undertow/websockets/jsr/test/autobahn/AnnotatedAutobahnServer.java:[80,92] unchecked conversion
+  required: org.xnio.channels.AcceptingChannel<org.xnio.StreamConnection>
+  found:    org.xnio.channels.AcceptingChannel
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M8-SNAPSHOT:test (default-test) @ undertow-websockets-jsr ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.205 s <<< FAILURE! - in io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest
+[ERROR] io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason  Time elapsed: 0.012 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[hi Bob (protocol=foo)]> but was:<[CLOSED]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason(AnnotatedEndpointTest.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at io.undertow.testutils.DefaultServer.runChild(DefaultServer.java:514)
+	at io.undertow.testutils.DefaultServer.runChild(DefaultServer.java:103)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.undertow.testutils.DefaultServer.run(DefaultServer.java:287)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:147)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:112)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:88)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:80)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   AnnotatedEndpointTest.testCloseReason:188 expected:<[hi Bob (protocol=foo)]> but was:<[CLOSED]>
+[INFO] 
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[ERROR] There are test failures.
+
+Please refer to /home/azureuser/flaky/projects/d0efffad5d2034bb07525cac9b299dac72c3045d/undertow/websockets-jsr/target/surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.000 s
+[INFO] Finished at: 2023-09-21T04:13:52Z
+[INFO] ------------------------------------------------------------------------
+ENDING at Thu Sep 21 04:13:52 UTC 2023
+
+get_line_location_msg
+['188']
+['        Assert.assertEquals("hi Bob (protocol=foo)", AnnotatedClientEndpoint.message());\n']
+time: 0 io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason org.junit.ComparisonFailure: expected:<[hi Bob (protocol=foo)]> but was:<[CLOSED]> test failures
+{'victim': {'victim_test': {'testCloseReason': '    public void testCloseReason() throws Exception {\n        MessageEndpoint.reset();\n\n        Session session = deployment.connectToServer(AnnotatedClientEndpoint.class, new URI("ws://" + DefaultServer.getHostAddress("default") + ":" + DefaultServer.getHostPort("default") + "/ws/chat/Bob"));\n\n        Assert.assertEquals("hi Bob (protocol=foo)", AnnotatedClientEndpoint.message());\n\n        session.close(new CloseReason(CloseReason.CloseCodes.VIOLATED_POLICY, "Foo!"));\n        Assert.assertEquals("CLOSED", AnnotatedClientEndpoint.message());\n        CloseReason cr = MessageEndpoint.getReason();\n        Assert.assertEquals(CloseReason.CloseCodes.VIOLATED_POLICY.getCode(), cr.getCloseCode().getCode());\n        Assert.assertEquals("Foo!", cr.getReasonPhrase());\n\n    }\n'}, 'before': {'setup': '    public static void setup() throws Exception {\n\n        final ServletContainer container = ServletContainer.Factory.newInstance();\n\n        DeploymentInfo builder = new DeploymentInfo()\n                .setClassLoader(AnnotatedEndpointTest.class.getClassLoader())\n                .setContextPath("/ws")\n                .setResourceManager(new TestResourceLoader(AnnotatedEndpointTest.class))\n                .setClassIntrospecter(TestClassIntrospector.INSTANCE)\n                .addServletContextAttribute(WebSocketDeploymentInfo.ATTRIBUTE_NAME,\n                        new WebSocketDeploymentInfo()\n                                .setBuffers(DefaultServer.getBufferPool())\n                                .setWorker(DefaultServer.getWorker())\n                                .addEndpoint(MessageEndpoint.class)\n                                .addEndpoint(AnnotatedClientEndpoint.class)\n                                .addEndpoint(AnnotatedClientEndpointWithConfigurator.class)\n                                .addEndpoint(IncrementEndpoint.class)\n                                .addEndpoint(EncodingEndpoint.class)\n                                .addEndpoint(EncodingGenericsEndpoint.class)\n                                .addEndpoint(TimeoutEndpoint.class)\n                                .addEndpoint(ErrorEndpoint.class)\n                                .addEndpoint(RootContextEndpoint.class)\n                                .addEndpoint(ThreadSafetyEndpoint.class)\n                                .addEndpoint(RequestUriEndpoint.class)\n                                .addListener(new WebSocketDeploymentInfo.ContainerReadyListener() {\n                                    @Override\n                                    public void ready(ServerWebSocketContainer container) {\n                                        deployment = container;\n                                    }\n                                })\n                )\n                .addServlet(new ServletInfo("redirect", RedirectServlet.class)\n                .addMapping("/redirect"))\n                .setDeploymentName("servletContext.war");\n\n\n        DeploymentManager manager = container.addDeployment(builder);\n        manager.deploy();\n\n\n        DefaultServer.setRootHandler(Handlers.path().addPrefixPath("/ws", manager.start()));\n    }\n'}, 'after': {'after': '    public static void after() {\n        deployment = null;\n    }\n'}, 'global_vars': {'deployment': '    private static ServerWebSocketContainer deployment;\n'}, 'err_method': {}, 'method_names': ['setup', 'after']}, 'polluter': {'polluter_test': {'testErrorHandling': '    public void testErrorHandling() throws Exception {\n        //make a sub class\n        AnnotatedClientEndpoint c = new AnnotatedClientEndpoint() {\n\n        };\n\n        Session session = deployment.connectToServer(c, new URI("ws://" + DefaultServer.getHostAddress("default") + ":" + DefaultServer.getHostPort("default") + "/ws/error"));\n        Assert.assertEquals("hi", ErrorEndpoint.getMessage());\n        session.getAsyncRemote().sendText("app-error");\n        Assert.assertEquals("app-error", ErrorEndpoint.getMessage());\n        Assert.assertEquals("ERROR: java.lang.RuntimeException", ErrorEndpoint.getMessage());\n        Assert.assertTrue(c.isOpen());\n\n        session.getBasicRemote().sendText("io-error");\n        Assert.assertEquals("io-error", ErrorEndpoint.getMessage());\n        Assert.assertEquals("ERROR: java.io.IOException", ErrorEndpoint.getMessage());\n        Assert.assertTrue(c.isOpen());\n        ((UndertowSession)session).forceClose();\n        Assert.assertEquals("CLOSED", ErrorEndpoint.getMessage());\n\n    }\n'}, 'before': {}, 'after': {}, 'global_vars': {}, 'err_method': {}, 'method_names': []}}
+get_line_caused_errors
+['188']
+['        Assert.assertEquals("hi Bob (protocol=foo)", AnnotatedClientEndpoint.message());\n']
+['        Assert.assertEquals("hi Bob (protocol=foo)", AnnotatedClientEndpoint.message());\n'] ['188'] {'victim': {'victim_test': {'testCloseReason': '    public void testCloseReason() throws Exception {\n        MessageEndpoint.reset();\n\n        Session session = deployment.connectToServer(AnnotatedClientEndpoint.class, new URI("ws://" + DefaultServer.getHostAddress("default") + ":" + DefaultServer.getHostPort("default") + "/ws/chat/Bob"));\n\n        Assert.assertEquals("hi Bob (protocol=foo)", AnnotatedClientEndpoint.message());\n\n        session.close(new CloseReason(CloseReason.CloseCodes.VIOLATED_POLICY, "Foo!"));\n        Assert.assertEquals("CLOSED", AnnotatedClientEndpoint.message());\n        CloseReason cr = MessageEndpoint.getReason();\n        Assert.assertEquals(CloseReason.CloseCodes.VIOLATED_POLICY.getCode(), cr.getCloseCode().getCode());\n        Assert.assertEquals("Foo!", cr.getReasonPhrase());\n\n    }\n'}, 'before': {'setup': '    public static void setup() throws Exception {\n\n        final ServletContainer container = ServletContainer.Factory.newInstance();\n\n        DeploymentInfo builder = new DeploymentInfo()\n                .setClassLoader(AnnotatedEndpointTest.class.getClassLoader())\n                .setContextPath("/ws")\n                .setResourceManager(new TestResourceLoader(AnnotatedEndpointTest.class))\n                .setClassIntrospecter(TestClassIntrospector.INSTANCE)\n                .addServletContextAttribute(WebSocketDeploymentInfo.ATTRIBUTE_NAME,\n                        new WebSocketDeploymentInfo()\n                                .setBuffers(DefaultServer.getBufferPool())\n                                .setWorker(DefaultServer.getWorker())\n                                .addEndpoint(MessageEndpoint.class)\n                                .addEndpoint(AnnotatedClientEndpoint.class)\n                                .addEndpoint(AnnotatedClientEndpointWithConfigurator.class)\n                                .addEndpoint(IncrementEndpoint.class)\n                                .addEndpoint(EncodingEndpoint.class)\n                                .addEndpoint(EncodingGenericsEndpoint.class)\n                                .addEndpoint(TimeoutEndpoint.class)\n                                .addEndpoint(ErrorEndpoint.class)\n                                .addEndpoint(RootContextEndpoint.class)\n                                .addEndpoint(ThreadSafetyEndpoint.class)\n                                .addEndpoint(RequestUriEndpoint.class)\n                                .addListener(new WebSocketDeploymentInfo.ContainerReadyListener() {\n                                    @Override\n                                    public void ready(ServerWebSocketContainer container) {\n                                        deployment = container;\n                                    }\n                                })\n                )\n                .addServlet(new ServletInfo("redirect", RedirectServlet.class)\n                .addMapping("/redirect"))\n                .setDeploymentName("servletContext.war");\n\n\n        DeploymentManager manager = container.addDeployment(builder);\n        manager.deploy();\n\n\n        DefaultServer.setRootHandler(Handlers.path().addPrefixPath("/ws", manager.start()));\n    }\n'}, 'after': {'after': '    public static void after() {\n        deployment = null;\n    }\n'}, 'global_vars': {'deployment': '    private static ServerWebSocketContainer deployment;\n'}, 'err_method': {}, 'method_names': ['setup', 'after']}, 'polluter': {'polluter_test': {'testErrorHandling': '    public void testErrorHandling() throws Exception {\n        //make a sub class\n        AnnotatedClientEndpoint c = new AnnotatedClientEndpoint() {\n\n        };\n\n        Session session = deployment.connectToServer(c, new URI("ws://" + DefaultServer.getHostAddress("default") + ":" + DefaultServer.getHostPort("default") + "/ws/error"));\n        Assert.assertEquals("hi", ErrorEndpoint.getMessage());\n        session.getAsyncRemote().sendText("app-error");\n        Assert.assertEquals("app-error", ErrorEndpoint.getMessage());\n        Assert.assertEquals("ERROR: java.lang.RuntimeException", ErrorEndpoint.getMessage());\n        Assert.assertTrue(c.isOpen());\n\n        session.getBasicRemote().sendText("io-error");\n        Assert.assertEquals("io-error", ErrorEndpoint.getMessage());\n        Assert.assertEquals("ERROR: java.io.IOException", ErrorEndpoint.getMessage());\n        Assert.assertTrue(c.isOpen());\n        ((UndertowSession)session).forceClose();\n        Assert.assertEquals("CLOSED", ErrorEndpoint.getMessage());\n\n    }\n'}, 'before': {}, 'after': {}, 'global_vars': {}, 'err_method': {}, 'method_names': []}} ['testCloseReason']
+********** time 1 ASK GPT START #1 2023-09-21 04:13:52.715426 undertow websockets-jsr io.undertow.websockets.jsr.test.annotated.AnnotatedEndpointTest.testCloseReason *************************************
+{'victim_test': {'testCloseReason': '    public void testCloseReason() throws Exception {\n        MessageEndpoint.reset();\n\n        Session session = deployment.connectToServer(AnnotatedClientEndpoint.class, new URI("ws://" + DefaultServer.getHostAddress("default") + ":" + DefaultServer.getHostPort("default") + "/ws/chat/Bob"));\n\n        Assert.assertEquals("hi Bob (protocol=foo)", AnnotatedClientEndpoint.message());\n\n        session.close(new CloseReason(CloseReason.CloseCodes.VIOLATED_POLICY, "Foo!"));\n        Assert.assertEquals("CLOSED", AnnotatedClientEndpoint.message());\n        CloseReason cr = MessageEndpoint.getReason();\n        Assert.assertEquals(CloseReason.CloseCodes.VIOLATED_POLICY.getCode(), cr.getCloseCode().getCode());\n        Assert.assertEquals("Foo!", cr.getReasonPhrase());\n\n    }\n'}, 'before': {'setup': '    public static void setup() throws Exception {\n\n        final ServletContainer container = ServletContainer.Factory.newInstance();\n\n        DeploymentInfo builder = new DeploymentInfo()\n                .setClassLoader(AnnotatedEndpointTest.class.getClassLoader())\n                .setContextPath("/ws")\n                .setResourceManager(new TestResourceLoader(AnnotatedEndpointTest.class))\n                .setClassIntrospecter(TestClassIntrospector.INSTANCE)\n                .addServletContextAttribute(WebSocketDeploymentInfo.ATTRIBUTE_NAME,\n                        new WebSocketDeploymentInfo()\n                                .setBuffers(DefaultServer.getBufferPool())\n                                .setWorker(DefaultServer.getWorker())\n                                .addEndpoint(MessageEndpoint.class)\n                                .addEndpoint(AnnotatedClientEndpoint.class)\n                                .addEndpoint(AnnotatedClientEndpointWithConfigurator.class)\n                                .addEndpoint(IncrementEndpoint.class)\n                                .addEndpoint(EncodingEndpoint.class)\n                                .addEndpoint(EncodingGenericsEndpoint.class)\n                                .addEndpoint(TimeoutEndpoint.class)\n                                .addEndpoint(ErrorEndpoint.class)\n                                .addEndpoint(RootContextEndpoint.class)\n                                .addEndpoint(ThreadSafetyEndpoint.class)\n                                .addEndpoint(RequestUriEndpoint.class)\n                                .addListener(new WebSocketDeploymentInfo.ContainerReadyListener() {\n                                    @Override\n                                    public void ready(ServerWebSocketContainer container) {\n                                        deployment = container;\n                                    }\n                                })\n                )\n                .addServlet(new ServletInfo("redirect", RedirectServlet.class)\n                .addMapping("/redirect"))\n                .setDeploymentName("servletContext.war");\n\n\n        DeploymentManager manager = container.addDeployment(builder);\n        manager.deploy();\n\n\n        DefaultServer.setRootHandler(Handlers.path().addPrefixPath("/ws", manager.start()));\n    }\n'}, 'after': {'after': '    public static void after() {\n        deployment = null;\n    }\n'}, 'global_vars': {'deployment': '    private static ServerWebSocketContainer deployment;\n'}, 'err_method': {}, 'method_names': ['setup', 'after']}
+{'polluter_test': {'testErrorHandling': '    public void testErrorHandling() throws Exception {\n        //make a sub class\n        AnnotatedClientEndpoint c = new AnnotatedClientEndpoint() {\n\n        };\n\n        Session session = deployment.connectToServer(c, new URI("ws://" + DefaultServer.getHostAddress("default") + ":" + DefaultServer.getHostPort("default") + "/ws/error"));\n        Assert.assertEquals("hi", ErrorEndpoint.getMessage());\n        session.getAsyncRemote().sendText("app-error");\n        Assert.assertEquals("app-error", ErrorEndpoint.getMessage());\n        Assert.assertEquals("ERROR: java.lang.RuntimeException", ErrorEndpoint.getMessage());\n        Assert.assertTrue(c.isOpen());\n\n        session.getBasicRemote().sendText("io-error");\n        Assert.assertEquals("io-error", ErrorEndpoint.getMessage());\n        Assert.assertEquals("ERROR: java.io.IOException", ErrorEndpoint.getMessage());\n        Assert.assertTrue(c.isOpen());\n        ((UndertowSession)session).forceClose();\n        Assert.assertEquals("CLOSED", ErrorEndpoint.getMessage());\n\n    }\n'}, 'before': {}, 'after': {}, 'global_vars': {}, 'err_method': {}, 'method_names': []}

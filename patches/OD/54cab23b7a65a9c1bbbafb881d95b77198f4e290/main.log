@@ -1,0 +1,489 @@
+Len: 23
+openhtmltopdf-slf4j
+elastic-job-lite-core
+.
+.
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+lib
+*** openhtmltopdf-slf4j
+[Before fix] Running victim openhtmltopdf-slf4j with type OD from project openhtmltopdf sha openhtmltopdf module 4a0612fab7b3a55e3e11d485233b063006d03b0f
+git checkout projects/4a0612fab7b3a55e3e11d485233b063006d03b0f/openhtmltopdf/openhtmltopdf-slf4j/src/test/java/com/openhtmltopdf/slf4j/Slf4JLoggerTest.java
+
+git stash
+No local changes to save
+
+OD openhtmltopdf openhtmltopdf com.openhtmltopdf.slf4j.Slf4JLoggerTest#testLoggerWarnLevel #openhtmltopdf-slf4j 4a0612fab7b3a55e3e11d485233b063006d03b0f /home/azureuser/flaky/projects/ BeforeFix 1 com.openhtmltopdf.slf4j.Slf4JLoggerTest.testLogger projects/4a0612fab7b3a55e3e11d485233b063006d03b0f/openhtmltopdf/openhtmltopdf-slf4j/src/test/java/com/openhtmltopdf/slf4j/Slf4JLoggerTest.java
+RUNNING Surefire 1 time(s) on polluter com.openhtmltopdf.slf4j.Slf4JLoggerTest#testLoggerWarnLevel and victim #openhtmltopdf-slf4j with type OD from project openhtmltopdf sha openhtmltopdf module 4a0612fab7b3a55e3e11d485233b063006d03b0f               
+STARTING at Thu Sep 21 03:20:15 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//openhtmltopdf/openhtmltopdf
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 4a0612fab7b3a55e3e11d485233b063006d03b0f -Dsurefire.runOrder=testorder -Dtest=com.openhtmltopdf.slf4j.Slf4JLoggerTest#testLoggerWarnLevel,#openhtmltopdf-slf4j -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/openhtmltopdf_openhtmltopdf//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 4a0612fab7b3a55e3e11d485233b063006d03b0f @ 
+[ERROR] Could not find the selected project in the reactor: 4a0612fab7b3a55e3e11d485233b063006d03b0f -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:16 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 openhtmltopdf-slf4j Could not find the selected project in the reactor: 4a0612fab7b3a55e3e11d485233b063006d03b0f @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #1 2023-09-21 03:20:16.368113 openhtmltopdf 4a0612fab7b3a55e3e11d485233b063006d03b0f openhtmltopdf-slf4j *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test openhtmltopdf-slf4j with type OD from project openhtmltopdf sha openhtmltopdf module 4a0612fab7b3a55e3e11d485233b063006d03b0f                     
+*********** END #1 2023-09-21 03:20:16.368267 openhtmltopdf 4a0612fab7b3a55e3e11d485233b063006d03b0f openhtmltopdf-slf4j *************************************
+*** elastic-job-lite-core
+[Before fix] Running victim elastic-job-lite-core with type OD-Vic from project shardingsphere-elasticjob sha shardingsphere-elasticjob module b022898ef1b8c984e17efb2a422ee45f6b13e46e
+git checkout projects/b022898ef1b8c984e17efb2a422ee45f6b13e46e/shardingsphere-elasticjob/elastic-job-lite-core/src/test/java/io/elasticjob/lite/internal/instance/ShutdownListenerManagerTest.java
+
+git stash
+No local changes to save
+
+OD-Vic shardingsphere-elasticjob shardingsphere-elasticjob io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest#assertRemoveLocalInstancePath #elastic-job-lite-core b022898ef1b8c984e17efb2a422ee45f6b13e46e /home/azureuser/flaky/projects/ BeforeFix 1 io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest.assertIsShutdownAlready projects/b022898ef1b8c984e17efb2a422ee45f6b13e46e/shardingsphere-elasticjob/elastic-job-lite-core/src/test/java/io/elasticjob/lite/internal/instance/ShutdownListenerManagerTest.java
+RUNNING Surefire 1 time(s) on polluter io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest#assertRemoveLocalInstancePath and victim #elastic-job-lite-core with type OD-Vic from project shardingsphere-elasticjob sha shardingsphere-elasticjob module b022898ef1b8c984e17efb2a422ee45f6b13e46e               
+STARTING at Thu Sep 21 03:20:16 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//shardingsphere-elasticjob/shardingsphere-elasticjob
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl b022898ef1b8c984e17efb2a422ee45f6b13e46e -Dsurefire.runOrder=testorder -Dtest=io.elasticjob.lite.internal.instance.ShutdownListenerManagerTest#assertRemoveLocalInstancePath,#elastic-job-lite-core -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/shardingsphere-elasticjob_shardingsphere-elasticjob//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: b022898ef1b8c984e17efb2a422ee45f6b13e46e @ 
+[ERROR] Could not find the selected project in the reactor: b022898ef1b8c984e17efb2a422ee45f6b13e46e -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:17 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 elastic-job-lite-core Could not find the selected project in the reactor: b022898ef1b8c984e17efb2a422ee45f6b13e46e @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #2 2023-09-21 03:20:17.784078 shardingsphere-elasticjob b022898ef1b8c984e17efb2a422ee45f6b13e46e elastic-job-lite-core *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test elastic-job-lite-core with type OD-Vic from project shardingsphere-elasticjob sha shardingsphere-elasticjob module b022898ef1b8c984e17efb2a422ee45f6b13e46e                     
+*********** END #2 2023-09-21 03:20:17.784246 shardingsphere-elasticjob b022898ef1b8c984e17efb2a422ee45f6b13e46e elastic-job-lite-core *************************************
+*** .
+[Before fix] Running victim . with type OD from project remoting sha remoting module abf0455a68ad6c52a57e912bb89d51f883f77542
+git checkout projects/abf0455a68ad6c52a57e912bb89d51f883f77542/remoting/src/test/java/hudson/remoting/DefaultClassFilterTest.java
+
+git stash
+No local changes to save
+
+OD remoting remoting hudson.remoting.DefaultClassFilterTest#testDefaultsAreUsedIfOverridesAreGarbage # abf0455a68ad6c52a57e912bb89d51f883f77542 /home/azureuser/flaky/projects/ BeforeFix 1 hudson.remoting.DefaultClassFilterTest.testDefaultsNoOverride projects/abf0455a68ad6c52a57e912bb89d51f883f77542/remoting/src/test/java/hudson/remoting/DefaultClassFilterTest.java
+RUNNING Surefire 1 time(s) on polluter hudson.remoting.DefaultClassFilterTest#testDefaultsAreUsedIfOverridesAreGarbage and victim # with type OD from project remoting sha remoting module abf0455a68ad6c52a57e912bb89d51f883f77542               
+STARTING at Thu Sep 21 03:20:17 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//remoting/remoting
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl abf0455a68ad6c52a57e912bb89d51f883f77542 -Dsurefire.runOrder=testorder -Dtest=hudson.remoting.DefaultClassFilterTest#testDefaultsAreUsedIfOverridesAreGarbage,# -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/remoting_remoting//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: abf0455a68ad6c52a57e912bb89d51f883f77542 @ 
+[ERROR] Could not find the selected project in the reactor: abf0455a68ad6c52a57e912bb89d51f883f77542 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:19 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 . Could not find the selected project in the reactor: abf0455a68ad6c52a57e912bb89d51f883f77542 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch
+Re-run Maven using the -X switch to enable full debug logging 
+********** START #3 2023-09-21 03:20:19.138759 remoting abf0455a68ad6c52a57e912bb89d51f883f77542 . *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test . with type OD from project remoting sha remoting module abf0455a68ad6c52a57e912bb89d51f883f77542                     
+*********** END #3 2023-09-21 03:20:19.138930 remoting abf0455a68ad6c52a57e912bb89d51f883f77542 . *************************************
+*** .
+[Before fix] Running victim . with type OD from project remoting sha remoting module abf0455a68ad6c52a57e912bb89d51f883f77542
+git checkout projects/abf0455a68ad6c52a57e912bb89d51f883f77542/remoting/src/test/java/hudson/remoting/DefaultClassFilterTest.java
+
+git stash
+No local changes to save
+
+OD remoting remoting hudson.remoting.DefaultClassFilterTest#testDefaultsAreUsedIfOverridesAreGarbage # abf0455a68ad6c52a57e912bb89d51f883f77542 /home/azureuser/flaky/projects/ BeforeFix 1 hudson.remoting.DefaultClassFilterTest.testDefaultsOverrideExists projects/abf0455a68ad6c52a57e912bb89d51f883f77542/remoting/src/test/java/hudson/remoting/DefaultClassFilterTest.java
+RUNNING Surefire 1 time(s) on polluter hudson.remoting.DefaultClassFilterTest#testDefaultsAreUsedIfOverridesAreGarbage and victim # with type OD from project remoting sha remoting module abf0455a68ad6c52a57e912bb89d51f883f77542               
+STARTING at Thu Sep 21 03:20:19 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//remoting/remoting
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl abf0455a68ad6c52a57e912bb89d51f883f77542 -Dsurefire.runOrder=testorder -Dtest=hudson.remoting.DefaultClassFilterTest#testDefaultsAreUsedIfOverridesAreGarbage,# -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/remoting_remoting//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: abf0455a68ad6c52a57e912bb89d51f883f77542 @ 
+[ERROR] Could not find the selected project in the reactor: abf0455a68ad6c52a57e912bb89d51f883f77542 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:20 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 . Could not find the selected project in the reactor: abf0455a68ad6c52a57e912bb89d51f883f77542 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch
+Re-run Maven using the -X switch to enable full debug logging 
+********** START #4 2023-09-21 03:20:20.485308 remoting abf0455a68ad6c52a57e912bb89d51f883f77542 . *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test . with type OD from project remoting sha remoting module abf0455a68ad6c52a57e912bb89d51f883f77542                     
+*********** END #4 2023-09-21 03:20:20.485499 remoting abf0455a68ad6c52a57e912bb89d51f883f77542 . *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.basicProxyAuthentication projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:20 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:21 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #5 2023-09-21 03:20:22.128168 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #5 2023-09-21 03:20:22.128369 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedMappedQueryParams projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:22 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:23 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #6 2023-09-21 03:20:23.729553 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #6 2023-09-21 03:20:23.729833 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.deleteWithEscapedVarargsQueryParams projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:23 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:25 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #7 2023-09-21 03:20:25.305342 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #7 2023-09-21 03:20:25.305548 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:25 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:26 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #8 2023-09-21 03:20:27.047174 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #8 2023-09-21 03:20:27.047383 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:27 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:28 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #9 2023-09-21 03:20:28.682296 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #9 2023-09-21 03:20:28.682484 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:28 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:29 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #10 2023-09-21 03:20:30.460714 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #10 2023-09-21 03:20:30.460957 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:30 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:32 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #11 2023-09-21 03:20:32.712231 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #11 2023-09-21 03:20:32.712521 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithUnicode projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               
+STARTING at Thu Sep 21 03:20:32 UTC 2023
+2282e79298bfb57cfc106c4510d086f5fb218eff
+/home/azureuser/flaky/projects//http-request/http-request
+java version:
+CURRENT DIR /home/azureuser/flaky
+mvn test -pl 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -Dsurefire.runOrder=testorder -Dtest=com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory,#lib -Drat.skip -Dcheckstyle.skip -Denforcer.skip=true -Dspotbugs.skip -Dmaven.test.failure.ignore=true -Djacoco.skip -Danimal.sniffer.skip -Dmaven.antrun.skip -Djacoco.skip --log-file /home/azureuser/flaky/output_run2/verify_patches_surefire_logs/http-request_http-request//BeforeFix/{1..1}.log
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @ 
+[ERROR] Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+ENDING at Thu Sep 21 03:20:34 UTC 2023
+
+get_line_location_msg
+[]
+[]
+time: 0 lib Could not find the selected project in the reactor: 2d62a3e9da726942a93cf16b6e91c0187e6c0136 @
+
+To see the full stack trace of the errors, re-run Maven with the -e switch.
+Re-run Maven using the -X switch to enable full debug logging. 
+********** START #12 2023-09-21 03:20:34.968474 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+ERROR 'NoneType' object is not subscriptable
+*EXCEPTION*
+[****BAD FIXES ***_other_exception_**] Fix test lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136                     
+*********** END #12 2023-09-21 03:20:34.968721 http-request 2d62a3e9da726942a93cf16b6e91c0187e6c0136 lib *************************************
+*** lib
+[Before fix] Running victim lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136
+git checkout projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+
+git stash
+No local changes to save
+
+OD-Vic http-request http-request com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory #lib 2d62a3e9da726942a93cf16b6e91c0187e6c0136 /home/azureuser/flaky/projects/ BeforeFix 1 com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedMappedQueryParams projects/2d62a3e9da726942a93cf16b6e91c0187e6c0136/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+RUNNING Surefire 1 time(s) on polluter com.github.kevinsawicki.http.HttpRequestTest#customConnectionFactory and victim #lib with type OD-Vic from project http-request sha http-request module 2d62a3e9da726942a93cf16b6e91c0187e6c0136               

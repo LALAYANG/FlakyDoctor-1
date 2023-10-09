@@ -1,0 +1,10 @@
+project_url,sha,module,test,type,status,PR_link,notes
+https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-commons/nifi-record,org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys,ID,,,
+https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-nar-bundles/nifi-standard-services/nifi-hbase_1_1_2-client-service-bundle/nifi-hbase_1_1_2-client-service,org.apache.nifi.hbase.TestHBase_1_1_2_ClientService.testScan,ID,,,
+https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,web-api,com.graphhopper.util.InstructionListRepresentationTest.testRoundaboutJsonIntegrity,ID,,,
+https://github.com/graphhopper/graphhopper,91f1a89a0b515328109a659e445b1008d9db8769,core,com.graphhopper.routing.ch.CHProfileSelectorTest.onlyEdgeBasedPresent,ID,,,
+https://github.com/cerner/common-kafka,d7873514c1705575c642ed99d2fa501f9b319790,common-kafka,com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.nextRecord_fairProcessing,ID,,,
+https://github.com/espertechinc/esper,590fa9c9eb854f1420b9d337b802aca19f963cc0,regression-run,com.espertech.esper.regressionrun.suite.context.TestSuiteContext.testContextCategory,ID,Accepted,https://github.com/espertechinc/esper/pull/248,commit:https://github.com/espertechinc/esper/commit/febd574d5fb1bab9ba7e109bacbcfbee325337a1
+https://github.com/apache/iotdb,25a98ee165131047cda93dc92203db2ab9aecbc8,zeppelin-interpreter,org.apache.zeppelin.iotdb.IoTDBInterpreterTest.testSelectColumnStatementWithTimeFilter,ID,Accepted,https://github.com/apache/iotdb/pull/4459,
+https://github.com/apache/iotdb,25a98ee165131047cda93dc92203db2ab9aecbc8,cluster,org.apache.iotdb.cluster.log.snapshot.MetaSimpleSnapshotTest.testSerialize,ID,Accepted,https://github.com/apache/iotdb/pull/4459,
+https://github.com/Ericsson/ecchronos,5d58b0e4c922822c9df3d893fff2246d5784b11f,core,com.ericsson.bss.cassandra.ecchronos.core.repair.state.TestRepairStateImpl.testPartiallyRepaired,ID,Accepted,https://github.com/Ericsson/ecchronos/pull/294,

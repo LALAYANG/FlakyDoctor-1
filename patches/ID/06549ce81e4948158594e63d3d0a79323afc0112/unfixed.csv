@@ -1,0 +1,13 @@
+project_url,sha,module,test,type,status,PR_link,notes
+https://github.com/apache/avro,efe9aa7fbe457805dc894a9186e1267603d82dd2,lang/java/avro,org.apache.avro.reflect.TestNonStringMapKeys.testNonStringMapKeys,ID,,,
+https://github.com/apache/flink,549d4327cf4ae9646f74a1da561dcebecd3d47ff,flink-kubernetes,org.apache.flink.kubernetes.kubeclient.decorators.InitTaskManagerDecoratorTest.testNodeAffinity,ID,,,
+https://github.com/apache/flink,e246a05cd898e16758a52335250571e165a5148a,flink-table/flink-table-common,org.apache.flink.table.types.extraction.DataTypeExtractorTest.testExtraction,ID,,,
+https://github.com/apache/openwebbeans,424af4bb7285b806d3e3efe5020cd3e440e0a4ff,webbeans-jetty9,org.apache.webbeans.web.jetty9.test.JettyNormalScopeProxyFactoryTest.checkDeserialisation,ID,,,https://github.com/TestingResearchIllinois/idoft/issues/561
+https://github.com/apache/shardingsphere-elasticjob,b022898ef1b8c984e17efb2a422ee45f6b13e46e,elastic-job-lite-core,io.elasticjob.lite.executor.type.SimpleJobExecutorTest.assertExecuteWhenRunOnceAndThrowExceptionForMultipleShardingItems,ID,,,
+https://github.com/spring-projects/spring-boot,daa3d457b71896a758995c264977bdd1414ee4d4,spring-boot-project/spring-boot,org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzerTests.cycleWithAutowiredFields,ID,,,
+https://github.com/spring-projects/spring-boot,daa3d457b71896a758995c264977bdd1414ee4d4,spring-boot-project/spring-boot-test-autoconfigure,org.springframework.boot.test.autoconfigure.properties.AnnotationsPropertySourceTests.propertiesFromMultipleMetaAnnotationsAreMappedUsingTheirOwnPropertyMapping,ID,,,
+https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,clustering/infinispan/extension,org.jboss.as.clustering.infinispan.subsystem.InfinispanTransformersTestCase.testTransformerEAP710,ID,,,
+https://github.com/wildfly/wildfly,b19048b72669fc0e96665b1b125dc1fda21f5993,dist,org.wildfly.dist.subsystem.xml.StandardConfigsXMLValidationUnitTestCase.testHostMaster,ID,,,
+https://github.com/haraldk/TwelveMonkeys,29f7547a99da1719aa22e7ea1f86b6b93d2fed55,imageio/imageio-core,com.twelvemonkeys.imageio.StandardImageMetadataSupportTest.withTextValuesMap,ID,,,
+https://github.com/LinShunKang/MyPerf4J,4c0a98d8f0f93733b0fddbb2b4b3dd4edd32470d,MyPerf4J-Base,cn.myperf4j.base.influxdb.InfluxDbV2ClientTest.testWrite,ID,,,
+https://github.com/networknt/light-4j,75ad2d415c51d7b6475f1d270a66949609b125d5,body,com.networknt.body.BodyHandlerTest.testPostFormUrlEncoded,ID,,,

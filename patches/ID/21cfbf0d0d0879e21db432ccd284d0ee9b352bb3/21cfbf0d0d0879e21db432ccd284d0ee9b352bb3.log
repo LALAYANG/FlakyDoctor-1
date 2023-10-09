@@ -1,0 +1,37 @@
++ cd /home/azureuser/flaky
+++ pwd
++ echo '* CURRENT' DIR /home/azureuser/flaky
+* CURRENT DIR /home/azureuser/flaky
++ echo bash -x /home/azureuser/flaky/stash.sh /home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv projects
+bash -x /home/azureuser/flaky/stash.sh /home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv projects
++ bash -x /home/azureuser/flaky/stash.sh /home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv projects
++ input=/home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv
++ cloneDir=projects
+++ cut -f 1 -d ' '
+++ shasum
++++ date '+%Y-%m-%d %H:%M:%S'
+++ echo -n 2023-09-23 18:17:44
++ timeStamp=21cfbf0d0d0879e21db432ccd284d0ee9b352bb3
++ mkdir -p ./output/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/install_logs
+++ pwd
++ mainDir=/home/azureuser/flaky/projects
+++ pwd
++ logDir=/home/azureuser/flaky/output/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/install_logs
++ exec
+++ exec
++ trap 0 1 2 3
++ exec
++ tee /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/main.log
++ echo python3 /home/azureuser/flaky/collect_flakies.py /home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv /home/azureuser/flaky/projects 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 /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/detailRes.csv /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/summaryRes.csv /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/goodPatches /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/unfixed.csv
+python3 /home/azureuser/flaky/collect_flakies.py /home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv /home/azureuser/flaky/projects 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 /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/detailRes.csv /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/summaryRes.csv /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/goodPatches /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/unfixed.csv
++ python3 /home/azureuser/flaky/collect_flakies.py /home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv /home/azureuser/flaky/projects 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 /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/detailRes.csv /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/summaryRes.csv /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/goodPatches /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/unfixed.csv
++ tee /home/azureuser/flaky/IDAdd/21cfbf0d0d0879e21db432ccd284d0ee9b352bb3/main.log
+Traceback (most recent call last):
+  File "/home/azureuser/flaky/collect_flakies.py", line 892, in <module>
+    tests = get_uniq_projects.collect_tests(pr_csv)
+  File "/home/azureuser/flaky/get_uniq_projects.py", line 14, in collect_tests
+    with open(pr_csv, mode ='r')as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/azureuser/flaky/IDAdd/0ce7b060c46d547e91e3879ff1cbcfb6e5347b9/unfixed.csv'
+++ date
++ echo '* ENDING' at Sat Sep 23 18:17:45 UTC 2023
+* ENDING at Sat Sep 23 18:17:45 UTC 2023

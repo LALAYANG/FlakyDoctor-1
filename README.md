@@ -11,3 +11,4 @@
 - https://github.com/moquette-io/moquette/pull/781
 - https://github.com/BroadleafCommerce/BroadleafCommerce/pull/2901
 - https://github.com/graphhopper/graphhopper/pull/2887
+- https://github.com/dropwizard/dropwizard/pull/7629

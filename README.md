@@ -25,7 +25,7 @@ bash -x scripts/all.sh inputCsv cloneDir apiKey resDir fixScript
 ```
 The arguments are as follows:
 ```
-- inputCsv: An input csv files which includes 
+- inputCsv: An input csv files which includes the info of `project,sha,module,test,type,status,pr,notes` for each test, such as `https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-commons/nifi-record,org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys,ID,,,,`
 - cloneDir: the directory where all Java projects are located
 - apiKey: OpenAI token
 - resDir: the directory to save all results. Each run of the experiments will generate a directory with a unique SHA as the folder name, under the folder there are patches, detailed result information, and all logs

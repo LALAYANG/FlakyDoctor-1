@@ -147,27 +147,3 @@ def get_line(line_num,file_path):
     test_class = file.read()
     line = linecache.getline(file_path, int(line_num))
     print(line)
-
-if __name__ == "__main__":
-    # args = sys.argv[1:]
-    # log_file = args[0]
-
-    # log_path = "/home/azureuser/flaky/projects/efa16c65450e23f90e050e4e0b2bd229af24b02c/vpc-java-sdk/1.log"
-    # test_file_path = "/home/azureuser/flaky/projects/efa16c65450e23f90e050e4e0b2bd229af24b02c/vpc-java-sdk/modules/vpc/src/test/java/com/ibm/cloud/is/vpc/v1/model/VolumeAttachmentPrototypeInstanceByVolumeContextTest.java" 
-    # test_full_name = "com.ibm.cloud.is.vpc.v1.model.VolumeAttachmentPrototypeInstanceByVolumeContextTest.testVolumeAttachmentPrototypeInstanceByVolumeContext"
-    
-    log_path = "/home/azureuser/flaky/projects/b428343af85e613805674cd44dad416dfddde09c/jinjava/1.log"
-    # "/home/azureuser/flaky/projects/1bfa41c6ca27265866abb91d66ea99223668296a/java-sdk-core/1.log"
-    test_file_path = "/home/azureuser/flaky/projects/b428343af85e613805674cd44dad416dfddde09c/jinjava/src/test/java/com/hubspot/jinjava/lib/tag/eager/EagerImportTagTest.java"
-    # "/home/azureuser/flaky/projects/eaac73406a80ca75fb9423bdf3faada67f955083/wasabi/modules/experiment-objects/src/test/java/com/intuit/wasabi/experimentobjects/ExperimentBatchTest.java"
-    # "/home/azureuser/flaky/projects/1bfa41c6ca27265866abb91d66ea99223668296a/java-sdk-core/src/test/java/com/ibm/cloud/sdk/core/test/model/DynamicModelSerializationTest.java"
-    # "/home/azureuser/flaky/projects/9397602ebd5329b035851542c84c3a347b23eb7d/platform-services-java-sdk/modules/configuration-governance/src/test/java/com/ibm/cloud/platform_services/configuration_governance/v1/model/RuleRequestTest.java"
-    test_full_name = "com.hubspot.jinjava.lib.tag.eager.EagerImportTagTest#itDefersTripleLayer"
-    # "com.intuit.wasabi.experimentobjects.ExperimentBatchTest#testToString"
-    # "com.ibm.cloud.sdk.core.test.model.DynamicModelSerializationTest#testAlternatePropertyNames"
-    file = open(log_path, 'r', errors='ignore')
-    nondex_output = file.read()
-
-    get_line_location_msg(nondex_output,test_file_path,test_full_name)
-    # scan_API(test_file_path,test_full_name)
-    # get_line(108,test_file_path)

@@ -37,6 +37,6 @@ if __name__ == "__main__":
     # args = sys.argv[1:]
     # pom_path = args[0]
     # dependency_lines = args[1]
-    path= "/home/azureuser/flaky/projects/6fb5cd049b57a22d2ec4465d204c15f1c90dd325/adyen-java-api-library/pom.xml"
-    toadd = '\n<dependency>\n    <groupId>com.fasterxml.jackson.core</groupId>\n    <artifactId>jackson-databind22</artifactId>\n    <version>2.12.3</version>\n</dependency>\n'
-    add_dependency(path,toadd + toadd)
+    # path= "/home/azureuser/flaky/projects/6fb5cd049b57a22d2ec4465d204c15f1c90dd325/adyen-java-api-library/pom.xml"
+    # toadd = '\n<dependency>\n    <groupId>com.fasterxml.jackson.core</groupId>\n    <artifactId>jackson-databind22</artifactId>\n    <version>2.12.3</version>\n</dependency>\n'
+    # add_dependency(path,toadd + toadd)

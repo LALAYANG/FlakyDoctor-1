@@ -11,3 +11,23 @@
 - https://github.com/BroadleafCommerce/BroadleafCommerce/pull/2901
 - https://github.com/graphhopper/graphhopper/pull/2887
 - https://github.com/dropwizard/dropwizard/pull/7629
+
+## Reproduce results
+
+To set up the environments by:
+```
+bash -x scripts/setup.sh
+```
+
+To reproduce the results, one can run commands:
+```
+bash -x scripts/all.sh inputCsv cloneDir apiKey resDir fixScript
+```
+The arguments are as follows:
+```
+- inputCsv: An input csv files which includes 
+- cloneDir: the directory where all Java projects are located
+- apiKey: OpenAI token
+- resDir: the directory to save all results. Each run of the experiments will generate a directory with a unique SHA as the folder name, under the folder there are patches, detailed result information, and all logs
+- fixScript: specify one of the following scripts: `ID_flakiness.py`, `OD_flakiness.py`, `NOD_flakiness.py`
+```

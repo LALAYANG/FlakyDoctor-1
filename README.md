@@ -20,13 +20,15 @@ We opened 18 PRs for 58 tests:
 - https://github.com/dianping/cat/pull/2320
 - https://github.com/hellokaton/30-seconds-of-java8/pull/8
 - https://github.com/AmadeusITGroup/workflow-cps-global-lib-http-plugin/pull/68
-- https://github.com/dserfe/flink/pull/1
-- https://github.com/dserfe/nifi/pull/1
-- https://github.com/dserfe/jenkins/pull/1
 - https://github.com/wro4j/wro4j/pull/1167
 - https://github.com/jnr/jnr-posix/pull/185
 - https://github.com/kevinsawicki/http-request/pull/177
 - https://github.com/yangfuhai/jboot/pull/117
+
+*We are waiting for developers to approve our requests to create an issue for the following PRs:*
+- https://github.com/dserfe/flink/pull/1
+- https://github.com/dserfe/nifi/pull/1
+- https://github.com/dserfe/jenkins/pull/1
 
 **Why other tests can not be opened PRs:**
 ```

@@ -19,12 +19,14 @@ We opened 18 PRs for 58 tests:
 - https://github.com/BroadleafCommerce/BroadleafCommerce/pull/2901
 - https://github.com/dianping/cat/pull/2320
 - https://github.com/hellokaton/30-seconds-of-java8/pull/8
-- https://github.com/dropwizard/dropwizard/pull/7629
 - https://github.com/AmadeusITGroup/workflow-cps-global-lib-http-plugin/pull/68
 - https://github.com/dserfe/flink/pull/1
 - https://github.com/dserfe/nifi/pull/1
 - https://github.com/dserfe/jenkins/pull/1
 - https://github.com/wro4j/wro4j/pull/1167
+- https://github.com/jnr/jnr-posix/pull/185
+- https://github.com/kevinsawicki/http-request/pull/177
+- https://github.com/yangfuhai/jboot/pull/117
 
 **Why other tests can not be opened PRs:**
 ```

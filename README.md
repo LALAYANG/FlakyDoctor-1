@@ -3,7 +3,7 @@
 
 ## PRs
 
-We open 18 PRs to fix 58 tests:
+We opened 18 PRs for 58 tests:
 
 **Accepted PRs:**
 - https://github.com/funkygao/cp-ddd-framework/pull/65

@@ -3,7 +3,7 @@
 
 ## PRs
 
-We opened 18 PRs for 58 tests (one PR may include fix for multiple tests):
+We opened 19 PRs for 60 tests (one PR may include fixes for multiple tests):
 
 **Accepted PRs:**
 - https://github.com/funkygao/cp-ddd-framework/pull/65
@@ -15,7 +15,7 @@ We opened 18 PRs for 58 tests (one PR may include fix for multiple tests):
 
 **Opened PRs:**
 - https://github.com/dyc87112/SpringBoot-Learning/pull/98
-- https://github.com/graphhopper/graphhopper/pull/2887
+- https://github.com/graphhopper/graphhopper/pull/2899
 - https://github.com/BroadleafCommerce/BroadleafCommerce/pull/2901
 - https://github.com/dianping/cat/pull/2320
 - https://github.com/hellokaton/30-seconds-of-java8/pull/8
@@ -24,6 +24,7 @@ We opened 18 PRs for 58 tests (one PR may include fix for multiple tests):
 - https://github.com/jnr/jnr-posix/pull/185
 - https://github.com/kevinsawicki/http-request/pull/177
 - https://github.com/yangfuhai/jboot/pull/117
+- https://github.com/FasterXML/jackson-jakarta-rs-providers/pull/22
 
 *We are waiting for developers to approve our requests to create an issue for the following PRs:*
 - https://github.com/dserfe/flink/pull/1

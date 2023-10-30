@@ -27,8 +27,6 @@ for info in $(cat $input); do
 
     cd ${mainDir}/${sha}/${project}
     echo ${mainDir}/${sha}/${project}
-    echo "run git stash"
-    git stash
     java_version="$(grep "<jdk.*>" pom.xml)"
     if [[ $java_version == *"11"* ]]; then
         echo "java version 11"

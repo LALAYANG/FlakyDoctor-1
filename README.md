@@ -7,13 +7,15 @@ We opened 19 PRs for 60 tests (one PR may include fixes for multiple tests):
 
 **Accepted PRs:**
 - https://github.com/funkygao/cp-ddd-framework/pull/65
-- https://github.com/perwendel/spark/pull/1285
 - https://github.com/apache/pinot/pull/11771
 - https://github.com/dropwizard/dropwizard/pull/7629
 - https://github.com/opengoofy/hippo4j/pull/1495
 - https://github.com/moquette-io/moquette/pull/781
+- https://github.com/jnr/jnr-posix/pull/185
+- https://github.com/FasterXML/jackson-jakarta-rs-providers/pull/22
 
 **Opened PRs:**
+- https://github.com/perwendel/spark/pull/1285
 - https://github.com/dyc87112/SpringBoot-Learning/pull/98
 - https://github.com/graphhopper/graphhopper/pull/2899
 - https://github.com/BroadleafCommerce/BroadleafCommerce/pull/2901
@@ -21,10 +23,8 @@ We opened 19 PRs for 60 tests (one PR may include fixes for multiple tests):
 - https://github.com/hellokaton/30-seconds-of-java8/pull/8
 - https://github.com/AmadeusITGroup/workflow-cps-global-lib-http-plugin/pull/68
 - https://github.com/wro4j/wro4j/pull/1167
-- https://github.com/jnr/jnr-posix/pull/185
 - https://github.com/kevinsawicki/http-request/pull/177
 - https://github.com/yangfuhai/jboot/pull/117
-- https://github.com/FasterXML/jackson-jakarta-rs-providers/pull/22
 
 *We are waiting for developers to approve our requests to create an issue for the following PRs:*
 - https://github.com/dserfe/flink/pull/1

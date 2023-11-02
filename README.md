@@ -3,7 +3,7 @@
 
 ## PRs
 
-We opened 19 PRs for 60 tests (one PR may include fixes for multiple tests):
+We opened 19 PRs for 61 tests (one PR may include fixes for multiple tests):
 
 **Accepted PRs:**
 - https://github.com/funkygao/cp-ddd-framework/pull/65
@@ -25,10 +25,11 @@ We opened 19 PRs for 60 tests (one PR may include fixes for multiple tests):
 - https://github.com/AmadeusITGroup/workflow-cps-global-lib-http-plugin/pull/68
 - https://github.com/wro4j/wro4j/pull/1167
 - https://github.com/kevinsawicki/http-request/pull/177
+- https://github.com/apache/flink/pull/23648
 
 
 *We are waiting for developers to approve our requests to create an issue for the following PRs:*
-- https://github.com/dserfe/flink/pull/1
+- https://github.com/dserfe/flink/pull/2
 - https://github.com/dserfe/nifi/pull/1
 - https://github.com/dserfe/jenkins/pull/1
 

@@ -72,15 +72,16 @@ To set up the environments by:
 bash -x scripts/setup.sh
 ```
 
-To reproduce the results, one can run commands:
+To reproduce the results, one can run the following commands:
 ```
-bash -x scripts/all.sh inputCsv cloneDir apiKey resDir fixScript
+bash -x run/all.sh cloneDir token model resultDir inputCSV
 ```
 The arguments are as follows:
 ```
-- inputCsv: An input csv files which includes the info of `project,sha,module,test,type,status,pr,notes` for each test, such as `https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-commons/nifi-record,org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys,ID,,,,`
 - cloneDir: the directory where all Java projects are located
-- apiKey: OpenAI token
-- resDir: the directory to save all results. Each run of the experiments will generate a directory with a unique SHA as the folder name, under the folder there are patches, detailed result information, and all logs
-- fixScript: specify one of the following scripts: `ID_flakiness.py`, `OD_flakiness.py`, `NOD_flakiness.py`
+- token: authentication token for the model
+- model: the large language model to use in this task (GPT-4 or Magicoder)
+- resultDir: the directory to save all results. Each run of the experiments will generate a directory with a unique SHA as the folder name, under the folder there are patches, detailed result information, and all logs
+- inputCSV: An input csv files which includes the info of `project,sha,module,test,type,status,pr,notes` for each test, such as `https://github.com/apache/nifi,2bd752d868a8f3e36113b078bb576cf054e945e8,nifi-commons/nifi-record,org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys,ID,,,,`
+
 ```

@@ -683,8 +683,8 @@ def repair_ID_tests(test_info, model, nondex_times,result_csv,result_json,save_d
                 if test_info["pom"] != None:
                     project_name = project.split("/")[-1]
                     pom_path = test_info["pom"].split(project_name + "/")[-1]
-                    print("/home/yang/flaky/" + project_dir, pom_path)
-                    utils.git_checkout_file( "/home/yang/flaky/" + project_dir,pom_path)
+                    print("/home/flaky/" + project_dir, pom_path)
+                    utils.git_checkout_file( "/home/flaky/" + project_dir,pom_path)
 
             
             test_method_content = patch["test_code"]
@@ -1397,7 +1397,7 @@ def parse_patch_gpt(response, test_method_name, test_class_content):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    flakies_csv = args[0] # /home/yang/flaky/idAddac.csv
+    flakies_csv = args[0] # /home/flaky/idAddac.csv
     clone_dir = args[1]
     api_key = args[2]
     result_csv = args[3]

@@ -1,0 +1,171 @@
+Test, Results
+de.strullerbaumann.visualee.filter.entity.SourcecodeFilterTest.testIsOkExcludeFalse,{0: 'test_failure', 1: 'build_failure', 2: 'test_pass'}
+org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest.testAuthenticateUserDigestUserNotFound,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_failure', 4: 'test_failure', 5: 'test_pass'}
+org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandlerTest.testAuthenticateUserDigestValidInvalid,{0: 'test_failure', 1: 'test_pass'}
+com.alibaba.json.bvt.serializer.MaxBufSizeTest.test_max_buf,{0: 'test_failure', 1: 'Stitched:test_pass'}
+org.jboss.as.naming.InitialContextFactoryTestCase.testJavaContext,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testCreateSubcontext,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+io.github.dddplus.runtime.registry.IntegrationTest.exportDomainArtifacts,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_failure', 4: 'test_failure', 5: 'test_pass'}
+technology.tabula.TestSpreadsheetExtractor.testRTL,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+us.bpsm.edn.printer.PrinterTest.testPrettyPrinting,{0: 'test_failure', 1: 'test_pass'}
+org.apache.nifi.distributed.cache.server.map.DistributedMapCacheTest.testSubMap,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+com.ctrip.framework.apollo.biz.service.NamespaceBranchServiceTest.testUpdateBranchGrayRulesWithUpdateOnce,{0: 'test_failure', 1: 'test_pass'}
+com.github.underscore.ArraysTest.replace,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+com.braintreegateway.unittest.RequestBuilderTest.map,{0: 'test_failure', 1: 'Stitched:test_pass'}
+org.apache.nifi.hbase.TestHBase_1_1_2_ClientService.testScan,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+com.ctrip.framework.apollo.biz.entity.JpaMapFieldJsonConverterTest.convertToDatabaseColumn_twoElement,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error;Stitched:compilation_error;Stitched:test_pass'}
+com.hubspot.jinjava.lib.filter.ListFilterTest.itConvertsSetsToLists,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error;Stitched:compilation_error', 3: 'test_pass'}
+com.intel.jndn.utils.client.impl.DefaultSegmentedClientTest.testGetSegmentsAsync,{0: 'test_failure', 1: 'compilation_error;Stitched:compilation_error', 2: 'test_failure', 3: 'test_pass'}
+com.thinkaurelius.titan.graphdb.attribute.GeoshapeTest.testGeoJsonSerialization,{0: 'test_failure', 1: 'test_pass'}
+com.ctrip.framework.apollo.adminservice.controller.ReleaseControllerTest.testReleaseBuild,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+com.twelvemonkeys.imageio.StandardImageMetadataSupportTest.withTextValuesMap,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+org.apache.commons.collections4.CollectionUtilsTest.getFromMap,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+org.apache.flink.api.java.typeutils.runtime.kryo.KryoGenericTypeSerializerTest.testJavaSet,{0: 'test_failure', 1: 'test_pass'}
+org.apache.flink.table.expressions.ExpressionTest.testValueLiteralString,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+org.apache.nifi.hbase.TestHBase_2_ClientService.testScan,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+io.confluent.connect.elasticsearch.ElasticsearchWriterTest.testMap,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+net.snowflake.client.jdbc.cloud.storage.SnowflakeAzureClientTest.testFormatStorageExtendedErrorInformation,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+com.vmware.admiral.common.util.JsonMapperTest.testRoundtrip,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+io.dropwizard.jackson.JacksonTest.objectMapperSerializesNullValues,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error;Stitched:compilation_error;Stitched:test_pass'}
+cn.hippo4j.common.toolkit.http.HttpUtilsTest.buildUrl,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+org.apache.cloudstack.utils.reflectiontostringbuilderutils.ReflectionToStringBuilderUtilsTest.validateGetNonSelectedFieldsObjectIsACollectionAndValidSelectedFieldsMustReturnNonSelectedFields,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_pass'}
+org.apache.tez.dag.app.dag.impl.TestVertexImpl.testVertexInit,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+com.hellokaton.blade.kit.JsonKitTest.test4,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error', 3: 'test_pass'}
+manifold.api.json.RequesterTest.httpPostRequestWithParameterizedUrlSuffixWithParams,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'compilation_error;Stitched:compilation_error', 4: 'test_pass'}
+org.immutables.fixture.jackson.BugsTest.roundtrip353,{0: 'test_failure', 1: 'test_pass'}
+com.opengamma.strata.data.MarketDataTest.test_combinedWith_noClashSame,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error', 3: 'test_pass'}
+com.graphhopper.isochrone.algorithm.ShortestPathTreeTest.testSearch,{0: 'test_failure', 1: 'compilation_error;Stitched:compilation_error', 2: 'compilation_error', 3: 'Stitched:test_pass'}
+pair.distribution.app.helpers.DayPairsHelperTest.testGenerateNewDayPairs,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+org.jboss.as.cli.impl.aesh.HelpSupportTestCase.testStandalone,{0: 'test_failure', 1: 'compilation_error;Stitched:compilation_error', 2: 'test_failure', 3: 'test_pass'}
+com.adobe.prime.core.sightly.models.EmbeddableWidgetModelTest.testWidgetConfigs,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_failure', 3: 'test_failure', 4: 'test_pass'}
+org.springframework.security.oauth2.provider.client.JdbcClientDetailsServiceTests.testUpdateClientRedirectURI,{0: 'test_failure', 1: 'compilation_error', 2: 'test_pass'}
+org.robovm.compiler.config.ConfigTest.testWriteConsole,{0: 'test_failure', 1: 'Stitched:test_pass'}
+org.apache.nifi.serialization.record.TestDataTypeUtils.testInferTypeWithMapNonStringKeys,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_pass'}
+com.networknt.registry.URLTest.testURL,{0: 'test_failure', 1: 'compilation_error;Stitched:test_failure', 2: 'test_pass'}
+org.apache.aries.cdi.container.internal.model.MapsTest.checkMerge_1,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+org.apache.shardingsphere.shardingjdbc.jdbc.core.datasource.MasterSlaveDataSourceTest.assertGetDatabaseProductName,{0: 'test_failure', 1: 'Stitched:test_failure', 2: 'test_pass'}
+com.google.cloud.tools.managedcloudsdk.install.InstallerTest.testCall_withOverrideComponents,{0: 'test_failure', 1: 'test_pass'}
+org.sonar.php.metrics.ExecutableLineVisitorTest.test,{0: 'test_failure', 1: 'test_pass'}
+com.networknt.schema.CollectorContextTest.testCollectorContextWithKeyword,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_pass'}
+com.cerner.common.kafka.consumer.ProcessingKafkaConsumerTest.rebalanceListener_onPartitionsAssigned,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+org.apache.servicecomb.foundation.vertx.http.TestAbstractHttpServletRequest.testAttribute,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_pass'}
+com.fasterxml.jackson.datatype.eclipsecollections.DeserializerTest.primitivePairs,{0: 'test_failure', 1: 'test_pass'}
+org.apache.skywalking.apm.util.ConfigInitializerTest.testInitialize,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_failure', 4: 'Stitched:test_pass'}
+cloud.orbit.actors.test.GenericActorStateTest.testGenericStateActor,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_failure', 3: 'Stitched:test_failure', 4: 'test_pass'}
+com.vmware.admiral.compute.content.kubernetes.KubernetesUtilTest.testMapApplicationSuffix,{0: 'test_failure', 1: 'compilation_error', 2: 'compilation_error', 3: 'test_pass'}
+io.dropwizard.logging.json.layout.JsonFormatterTest.testPrettyPrintNoLineSeparator,{0: 'test_failure', 1: 'Stitched:test_failure', 2: 'test_pass'}
+org.json.junit.JSONPointerTest.queryByEmptyKeySubObject,{0: 'test_failure', 1: 'Stitched:compilation_error', 2: 'test_failure', 3: 'test_pass'}
+net.ripe.db.whois.api.rdap.RdapObjectMapperTest.domain,{0: 'test_failure', 1: 'test_pass'}
+com.oracle.wls.exporter.domain.ExporterConfigTest.whenYamlContainsMergeableQueries_MergeThem,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:compilation_error;Stitched:compilation_error', 3: 'Stitched:test_pass'}
+org.apache.dubbo.common.bytecode.WrapperTest.test_getMethodNames_ContainExtendsParentMethods,{0: 'test_failure', 1: 'test_pass'}
+org.optaplanner.core.config.solver.SolverConfigTest.xmlConfigFileRemainsSameAfterReadWrite,{0: 'test_failure', 1: 'test_pass'}
+io.undertow.servlet.test.security.form.SaveOriginalPostRequestTestCase.testParametersFromOriginalPostRequest,{0: 'test_failure', 1: 'test_pass'}
+org.modelmapper.internal.converter.ArrayConverterTest.shouldConvertFromSet,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+org.openapitools.codegen.typescript.SharedTypeScriptTest.toModelImportMapTest,{0: 'test_failure', 1: 'test_failure', 2: 'Stitched:test_pass'}
+io.seata.common.util.CollectionUtilsTest.encodeMap,{0: 'test_failure', 1: 'test_pass'}
+org.snakeyaml.engine.usecases.references.ReferencesTest.referencesWithRecursiveKeysNotAllowedByDefault,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+net.ttddyy.dsproxy.asserts.hamcrest.ParameterHolderAssertionsTest.testParamsByNameUnmatchedMessage,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_pass'}
+cn.crane4j.core.support.SimpleCrane4jGlobalConfigurationTest.operatePropertyMappingStrategy,{0: 'test_failure', 1: 'compilation_error;Stitched:compilation_error', 2: 'compilation_error;Stitched:test_failure', 3: 'test_pass'}
+manifold.templates.directives.SectionTest.includeNestedSectionTest,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error', 3: 'Stitched:compilation_error', 4: 'test_failure', 5: 'test_pass'}
+com.alibaba.json.bvt.parser.TypeUtilsTest.test_cast_to_Timestamp_1970_01_01_00_00_00,{0: 'test_failure', 1: 'test_pass'}
+org.apache.druid.indexing.overlord.supervisor.SupervisorStatusTest.testJsonAttr,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.glassfish.jersey.tests.e2e.server.wadl.NoJAXBNoWadlTest.testOptionsNoWadl,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+uk.gov.gchq.gaffer.store.StorePropertiesTest.shouldSetJsonSerialiserModules,{0: 'test_failure', 1: 'compilation_error', 2: 'test_pass'}
+com.intuit.karate.graal.JsEngineTest.testObjectsWithinFunction,{0: 'test_failure', 1: 'compilation_error;Stitched:test_pass'}
+com.github.jreddit.request.util.KeyValueFormatterTest.testFormatMultiple,{0: 'test_failure', 1: 'Stitched:test_pass'}
+org.apache.commons.lang3.reflect.FieldUtilsTest.testGetFieldsWithAnnotation,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_pass'}
+org.apache.flink.runtime.checkpoint.CheckpointCoordinatorTest.testTriggerAndDeclineCheckpointComplex,{0: 'test_failure', 1: 'test_pass'}
+com.vip.vjtools.vjkit.mapper.JsonMapperTest.toJson,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error', 3: 'test_failure', 4: 'test_pass'}
+com.ctrip.framework.apollo.configservice.service.ReleaseMessageServiceWithCacheTest.testWhenHasReleaseMsgAndHasRepeatMsg,{0: 'test_failure', 1: 'compilation_error', 2: 'compilation_error', 3: 'test_pass'}
+org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersIfCurrentUserIsNull,{0: 'test_failure', 1: 'test_pass'}
+org.graylog.plugins.views.search.rest.ViewSharingResourceTest.summarizeUsersReturnsListOfUsersWithoutTheCurrent,{0: 'test_failure', 1: 'test_pass'}
+org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesMultipleResultsFromMultipleChecksWithConflictingKeys,{0: 'test_failure', 1: 'compilation_error', 2: 'Stitched:test_failure', 3: 'compilation_error', 4: 'test_pass'}
+org.graylog.plugins.views.search.views.ViewRequirementsTest.mergesResultsFromMultipleChecks,{0: 'test_failure', 1: 'Stitched:compilation_error', 2: 'test_pass'}
+org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeFloat,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'compilation_error', 4: 'test_pass'}
+org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeParameter,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.graylog2.contentpacks.model.entities.references.ValueReferenceTest.serializeString,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error', 3: 'test_pass'}
+org.graylog2.migrations.V20161215163900_MoveIndexSetDefaultConfigTest.upgrade,{0: 'test_failure', 1: 'test_pass'}
+org.graylog2.plugin.lookup.LookupCacheKeyTest.serialize,{0: 'test_failure', 1: 'test_pass'}
+org.graylog2.plugin.lookup.LookupCacheKeyTest.serializePrefixOnly,{0: 'test_failure', 1: 'test_pass'}
+com.alibaba.json.bvt.guava.HashMultimapTest.test_for_multimap,{0: 'test_failure', 1: 'test_failure', 2: 'compilation_error;Stitched:compilation_error;Stitched:compilation_error', 3: 'test_pass'}
+com.alibaba.json.bvt.issue_1400.Issue1480.test_for_issue,{0: 'test_failure', 1: 'test_pass'}
+com.example.app1.App1Test.customJsonProviderClient,{0: 'test_failure', 1: 'compilation_error', 2: 'compilation_error', 3: 'Stitched:compilation_error', 4: 'Stitched:test_pass'}
+com.example.app1.App1Test.customJsonProvider,{0: 'test_failure', 1: 'test_pass'}
+com.example.app1.App1Test.customJsonProviderRoundtrip,{0: 'test_failure', 1: 'compilation_error', 2: 'compilation_error;Stitched:test_pass'}
+de.strullerbaumann.visualee.filter.entity.SourcecodeFilterTest.testIsOkIncludeTrue,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.dependency.boundary.DependencyContainerTest.testFindAllDependenciesWith,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.dependency.boundary.DependencyContainerTest.testGetRelevantClassesDirectlyConnected,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.dependency.boundary.DependencyContainerTest.testGetRelevantClassesFilter,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerEJBTest.testFindAndSetAttributesEJBSetterWithAnnotations,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerEJBTest.testFindAndSetAttributesEJBWithParameter,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerEJBTest.testFindAndSetAttributesSetEJB,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerEJBTest.testFindAndSetAttributesSetEJBPackageView,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerEventTest.testFindAndSetAttributesSetInstance,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerEventTest.testFindEvents,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerInjectTest.testFindAndSetAttributesInjectSetterWithAnnotations,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerInjectTest.testFindAndSetAttributesSetInject,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerInjectTest.testFindEventNamedClass,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerInstanceTest.testFindAndSetAttributesSetInstance,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerInstanceTest.testFindAndSetAttributesSetInstanceGeneric,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerObservesTest.testObservesAnnotated,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerObservesTest.testObservesDuring,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerObservesTest.testObservesNotify,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerObservesTest.testObservesWithPhases,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerProducesTest.testFindAndSetAttributesProduces,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerProducesTest.testFindAndSetAttributesStaticProduces,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerResourceTest.testFindAndSetAttributesResource,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerResourceTest.testFindAndSetAttributesResourceInstance,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerResourceTest.testFindAndSetAttributesResourceMappedName,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.JavaSourceInspectorTest.testFindAndSetAttributesIgnoreCommentBlocks,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.JavaSourceInspectorTest.testFindAndSetAttributesIgnoreComments,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.JavaSourceInspectorTest.testSetGroupNrs,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesIgnoreCommentBlocks,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesIgnoreComments,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesManyToMany,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.jpa.JPAExaminerTest.testFindAndSetAttributesManyToOne,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.source.boundary.JavaSourceContainerTest.testAddJavaSourceDoublette,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.source.boundary.JavaSourceContainerTest.testGetJavaSourceByName,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.ui.graph.boundary.GraphCreatorTest.testBuildJSONLinks,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.ui.graph.boundary.GraphCreatorTest.testBuildJSONNode,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.ui.graph.boundary.GraphCreatorTest.testBuildJSONNodes,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.ui.graph.control.DescriptionTest.testGenerateDescription,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.ui.graph.control.DescriptionTest.testGenerateDescription2,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.InitialContextFactoryTestCase.testInitialFactory,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.InitialContextTestCase.testRegisterURLSchemeHandler,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testBind,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testBindReferenceable,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testList,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testListBindings,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testListBindingsNameNotFound,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testListBindingsWithContinuation,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testListNameNotFound,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testListWithContinuation,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookup,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupContextLink,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupEmptyName,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupLink,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupNameNotFound,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupReference,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupWithContinuation,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testLookupWitResolveResult,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testRebind,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testRebindReferenceable,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingContextTestCase.testUnbind,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireAllEvent,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireMultiLevelEvent,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireObjectEvent,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireOneLevelEvent,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.NamingEventCoordinatorTestCase.testFireSubTreeEvent,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.ObjectFactoryTestCase.testBindAndRetrieveObjectFactoryFromInitialContext,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.ObjectFactoryTestCase.testBindAndRetrieveObjectFactoryFromNamingContext,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testListBindings,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testLookupBindingUsingNestedContext,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testStoredContext,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testCompositeBindingOps,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testOnlyExternalContextAllowsCache,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+de.strullerbaumann.visualee.examiner.cdi.ExaminerObservesTest.testFindAndSetAttributesObserves,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.ServiceBasedNamingStoreTestCase.testLookupBinding,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+org.jboss.as.naming.subsystem.NamingSubsystemTestCase.testSubsystem,{0: 'test_failure', 1: 'test_failure', 2: 'test_pass'}
+com.alibaba.csp.sentinel.annotation.aspectj.integration.SentinelAnnotationIntegrationTest.testFallBackPrivateMethod,{0: 'test_failure', 1: 'Stitched:test_pass'}
+org.wikidata.wdtk.dumpfiles.MwDumpFileProcessingTest.testMwDailyDumpFileProcessing,{0: 'test_failure', 1: 'test_pass'}
+org.wikidata.wdtk.dumpfiles.MwDumpFileProcessingTest.testMwRecentCurrentDumpFileProcessing,{0: 'test_failure', 1: 'test_failure', 2: 'test_failure', 3: 'test_failure', 4: 'test_pass'}
